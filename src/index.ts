@@ -101,10 +101,10 @@ class CoreSDK {
       try {
         [type, json] = e.data.split(';');
         data = JSON.parse(json);
-      } catch (err) {}
 
-      // Make sure that the message has been sent by this project's iframe
-      if (data.id != this.id) return;
+        // Make sure that the message has been sent by this project's iframe
+        if (data.id != this.id) return;
+      } catch (err) {}
 
       this.emit('message', {
         type,
