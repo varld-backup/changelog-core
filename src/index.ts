@@ -8,7 +8,7 @@ export {
 };
 
 let defaultOptions: Options = {
-  embedHost: 'http://embed.changes.blue'
+  embedHost: 'https://embed.changes.blue'
 };
 
 class CoreSDK {
