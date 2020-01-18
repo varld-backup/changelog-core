@@ -6,7 +6,7 @@
 
 <p align="center">
   The core SDK serves as a reusable platform for embedding a Changes changelog into any website. <br />
-  The core SDK is used by <a href="https://github.com/varld/changes-bar">the Sidebar SDK</a> and <a href="https://github.com/varld/changes-bar">the Widget SDK</a>.
+  The core SDK is used by <a href="https://github.com/varld/changelog-bar">the Sidebar SDK</a> and <a href="https://github.com/varld/changelog-bar">the Widget SDK</a>.
 </p>
 
 ## Installation
