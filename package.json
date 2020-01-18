@@ -1,6 +1,6 @@
 {
   "name": "changelog-core",
-  "version": "0.0.3-beta",
+  "version": "0.0.4-beta",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/index.js",
