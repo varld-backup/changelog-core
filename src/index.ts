@@ -2,6 +2,11 @@ import { CtorOpts } from './types/ctorOpts';
 import { Options } from './types/options';
 import mitt from 'mitt';
 
+export {
+  CtorOpts,
+  Options
+};
+
 let defaultOptions: Options = {
   embedHost: 'http://embed.changes.blue'
 };
