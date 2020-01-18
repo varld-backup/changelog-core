@@ -1,0 +1,29 @@
+{
+  "name": "changelog-core",
+  "version": "0.0.1-beta",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "author": {
+    "name": "Tobias Herber",
+    "url": "https://herber.space"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varld/changelog-core.git"
+  },
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "microbundle": "^0.11.0",
+    "mitt": "^1.2.0"
+  }
+}
